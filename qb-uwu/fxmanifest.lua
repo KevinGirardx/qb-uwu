@@ -2,12 +2,12 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'DrB1ackBeard'
-description 'qb-burgershot for QBCore Created By DrB1ackBeard'
+edited 'KevinGirard'
+description 'qb-uwu'
 version '2.2.0'
 
 shared_scripts {
     'config.lua',
-    --'@qb-core/import.lua'
 }
 
 client_scripts {
@@ -16,4 +16,7 @@ client_scripts {
 	'client/menus.lua'
 }
 
-server_script 'server/*.lua'
+server_scripts {
+    '@oxmysql/lib/MySQL.lua',
+	'server/*.lua'
+}
