@@ -49,9 +49,7 @@ end)
 
 RegisterNetEvent('QBCore:Client:SetDuty')
 AddEventHandler('QBCore:Client:SetDuty', function(duty)
-    if PlayerData.job.name == 'uwu' then
-    	onDuty = duty
-    end
+    onDuty = duty
 end)
 
 RegisterNetEvent("qb-uwu:DutyUwu")
