@@ -176,18 +176,6 @@ RegisterNetEvent("consumables:client:uwuchocsandy", function(itemName)
     ["uwububbleteamint"] = math.random(55, 60), 
     ["uwumisosoup"] = math.random(80, 90),
 
-## Dependencies :
-
-QBCore Framework - https://github.com/qbcore-framework/qb-core
-
-PolyZone - https://github.com/mkafrin/PolyZone
-
-berkie-target - https://github.com/BerkieBb/berkie-target (Only needed if not using draw text)
- ## Outdated versions (move to qb-menu & qb-input)
-qb-menu - https://github.com/qbcore-framework/qb-menu
-
-qb-input - https://github.com/qbcore-framework/qb-input
-
 ## To-Do
 
 - ~~Add additional recipe items { tapioka balls, milk, tea, etc. }~~
