@@ -18,17 +18,6 @@ function DrawText3Ds(x, y, z, text)
     ClearDrawOrigin()
 end
 
--- Outdated (saved for backup)
-
--- RegisterNetEvent('QBCore:Client:OnPlayerLoaded')
--- AddEventHandler('QBCore:Client:OnPlayerLoaded', function()
--- 	if PlayerData.job.onduty then
--- 	    if PlayerData.job.name == "uwu" then
--- 		TriggerServerEvent("QBCore:ToggleDuty")
--- 	    end
--- 	end
--- end)
-
 RegisterNetEvent('QBCore:Client:OnPlayerLoaded')
 AddEventHandler('QBCore:Client:OnPlayerLoaded', function()
     QBCore.Functions.GetPlayerData(function(PlayerData)
